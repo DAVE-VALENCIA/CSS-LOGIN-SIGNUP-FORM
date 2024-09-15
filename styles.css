@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black; 
+}
+.container {
+    background: url('https://www.heavenlygatefuneralservices.com/fh_live/11900/11913/images/theme_images/71xV1EU9inL--SL1500-.jpg') center/cover no-repeat;
+    backdrop-filter: blur(5px); 
+    padding: 70px;
+    border-radius: 30px;
+    text-align: center;
+    width: 700px;
+    height: 570px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input, button {
+    background: rgb(231, 118, 231);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.6);
+    color: black; 
+}
+button {
+    border: none;
+    background:rgb(95, 74, 163);
+    color:black; 
+    cursor: pointer;
+}
+button:hover {
+    background: transparent;
+}
+.checkbox-container {
+    margin-top: 10px;
+    text-align: left;
+    color: black; 
+}
+.social-media-links {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin-top: 20px; 
+}
+.social-icon {
+    width: 50px; 
+    height: auto; 
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.forgot-password {
+    margin-right: 10px; 
+}
+
+
+
+
+
+
+
